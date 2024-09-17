@@ -3,7 +3,6 @@
 		"translate": "enchantment.hanas_enchantments.frost_thorn",
 		"fallback": "Frost Thorns"
 	},
-	"exclusive_set": "#minecraft:exclusive_set/armor",
 	"supported_items": "#minecraft:enchantable/chest_armor",
 	"primary_items": "#minecraft:enchantable/chest_armor",
 	"weight": 1,
@@ -17,8 +16,10 @@
 		"per_level_above_first": 20
 	},
 	"anvil_cost": 8,
-	"slots": [],
-	"effects": {
+    "slots": [
+		"chest"
+	],
+    "effects": {
 		"minecraft:post_attack": [
 			{
 				"enchanted": "victim",
