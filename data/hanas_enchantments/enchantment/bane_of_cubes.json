@@ -1,6 +1,7 @@
 {
 	"description": {
-		"translate": "enchantment.minecraft.bane_of_cubes"
+		"translate": "enchantment.hanas_enchantments.bane_of_cubes",
+        "fallback": "Bane of Cubes"
 	},
 	"exclusive_set": "#minecraft:exclusive_set/damage",
 	"supported_items": "#minecraft:enchantable/weapon",
@@ -34,7 +35,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "hanas_enchantments:sensitive_to_bane_of_cubes"
+						"type": "#hanas_enchantments:sensitive_to_bane_of_cubes"
 					}
 				}
 			}
@@ -62,7 +63,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type": "#minecraft:sensitive_to_bane_of_cubes"
+								"type": "#hanas_enchantments:sensitive_to_bane_of_cubes"
 							}
 						},
 						{

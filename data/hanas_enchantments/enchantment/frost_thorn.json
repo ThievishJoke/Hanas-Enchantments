@@ -1,9 +1,11 @@
 {
 	"description": {
-		"text": "enchantment.hanas_enchantments.frost_thorn"
+		"translate": "enchantment.hanas_enchantments.frost_thorn",
+		"fallback": "Frost Thorns"
 	},
-	"supported_items": "#minecraft:chest_armor",
-	"primary_items": "#minecraft:chest_armor",
+	"exclusive_set": "#minecraft:exclusive_set/armor",
+	"supported_items": "#minecraft:enchantable/chest_armor",
+	"primary_items": "#minecraft:enchantable/chest_armor",
 	"weight": 1,
 	"max_level": 5,
 	"min_cost": {
@@ -53,10 +55,14 @@
 					"to_apply": "minecraft:slowness",
 					"min_duration": {
 						"type": "minecraft:linear",
-						"base": 5,
-						"per_level_above_first": 5
+						"base": 20,
+						"per_level_above_first": 20
 					},
-					"max_duration": 25,
+					"max_duration": {
+						"type": "minecraft:linear",
+						"base": 25,
+						"per_level_above_first": 15
+					},
 					"min_amplifier": {
 						"type": "minecraft:linear",
 						"base": 1,
@@ -71,6 +77,13 @@
 				"effect": {
 					"type": "minecraft:summon_entity",
 					"entity": "minecraft:area_effect_cloud"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Particle:{type:snowflake},Radius:5,Duration:200}"
+					}
 				}
 			}
 		]
