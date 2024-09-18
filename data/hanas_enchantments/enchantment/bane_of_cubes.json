@@ -27,7 +27,7 @@
 					"value": {
 						"type": "minecraft:linear",
 						"base": 2.5,
-						"per_level_above_first": 2.5
+						"per_level_above_first": 2
 					}
 				},
 				"requirements": {
@@ -49,7 +49,7 @@
 					"min_duration": 1.5,
 					"max_duration": {
 						"type": "minecraft:linear",
-						"base": 1.5,
+						"base": 0.5,
 						"per_level_above_first": 0.5
 					},
 					"min_amplifier": 3,
