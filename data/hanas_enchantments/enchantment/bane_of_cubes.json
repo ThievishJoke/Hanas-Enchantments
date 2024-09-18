@@ -1,7 +1,8 @@
 {
 	"description": {
 		"translate": "enchantment.hanas_enchantments.bane_of_cubes",
-        "fallback": "Bane of Cubes"
+        "fallback": "Bane of Cubes",
+		"color": "#00a86b"
 	},
 	"supported_items": "#minecraft:enchantable/weapon",
 	"primary_items": "#minecraft:enchantable/weapon",

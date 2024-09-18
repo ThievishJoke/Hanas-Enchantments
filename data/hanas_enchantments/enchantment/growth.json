@@ -1,7 +1,8 @@
 {
 	"description": {
 		"translate": "enchantment.hanas_enchantments.growth",
-		"fallback": "Growth"
+		"fallback": "Growth",
+		"color": "#2e8b57"
 	},
 	"supported_items": "#minecraft:enchantable/armor",
 	"weight": 1,
