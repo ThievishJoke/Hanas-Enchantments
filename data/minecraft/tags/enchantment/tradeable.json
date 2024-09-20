@@ -1,7 +1,7 @@
 {
     "values" : [
-        "hanas_enchantments.bane_of_cubes",
-        "hanas_enchantments.frost_thorn",
-        "hanas_enchantments.growth"
+        "ballducked:bane_of_cubes",
+        "ballducked:frost_thorn",
+        "ballducked:growth"
     ]
 }

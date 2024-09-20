@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.hanas_enchantments.growth",
+		"translate": "enchantment.ballducked.growth",
 		"fallback": "Growth",
 		"color": "#2e8b57"
 	},

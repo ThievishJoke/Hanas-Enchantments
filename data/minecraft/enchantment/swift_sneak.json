@@ -2,7 +2,7 @@
     "description": {
       "translate": "enchantment.minecraft.swift_sneak"
     },
-    "exclusive_set": "#enchantencore:exclusive_set/leggings",
+    "exclusive_set": "#hanas_enchantments:exclusive_set/leggings",
     "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 1,
     "max_level": 4,

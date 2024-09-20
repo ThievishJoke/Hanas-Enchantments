@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.hanas_enchantments.bane_of_cubes",
+		"translate": "enchantment.ballducked.bane_of_cubes",
         "fallback": "Bane of Cubes",
 		"color": "#00a86b"
 	},

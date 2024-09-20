@@ -1,9 +1,9 @@
 {
     "values": [
-        "hanas_enchantments.frost_thorn",
-        "hanas_enchantments.bane_of_cubes",
-        "hanas_enchantments.growth",
-        "hanas_enchantments.curse_of_dull",
-        "hanas_enchantments.curse_of_glass"
+        "ballducked:frost_thorn",
+        "ballducked:bane_of_cubes",
+        "ballducked:growth",
+        "ballducked:curse_of_dull",
+        "ballducked:curse_of_glass"
     ]
 }

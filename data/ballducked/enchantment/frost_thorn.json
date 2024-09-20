@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.hanas_enchantments.frost_thorn",
+		"translate": "enchantment.ballducked.frost_thorn",
 		"fallback": "Frost Thorns",
 		"color": "#e7feff"
 	},
