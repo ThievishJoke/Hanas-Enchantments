@@ -2,7 +2,7 @@
 	"description": {
 		"translate": "enchantment.ballducked.frost_thorn",
 		"fallback": "Frost Thorns",
-		"color": "#e7feff"
+		"color": "#aef4f8"
 	},
 	"supported_items": "#minecraft:enchantable/chest_armor",
 	"primary_items": "#minecraft:enchantable/chest_armor",
@@ -17,10 +17,10 @@
 		"per_level_above_first": 20
 	},
 	"anvil_cost": 8,
-    "slots": [
+	"slots": [
 		"chest"
 	],
-    "effects": {
+	"effects": {
 		"minecraft:post_attack": [
 			{
 				"enchanted": "victim",
@@ -57,36 +57,67 @@
 					"to_apply": "minecraft:slowness",
 					"min_duration": {
 						"type": "minecraft:linear",
-						"base": 20,
+						"base": 5,
 						"per_level_above_first": 20
 					},
 					"max_duration": {
 						"type": "minecraft:linear",
-						"base": 25,
-						"per_level_above_first": 15
+						"base": 20,
+						"per_level_above_first": 25
 					},
 					"min_amplifier": {
 						"type": "minecraft:linear",
-						"base": 1,
+						"base": 0,
 						"per_level_above_first": 0.25
 					},
-					"max_amplifier": 2
-				}
-			},
-			{
-				"enchanted": "victim",
-				"affected": "victim",
-				"effect": {
-					"type": "minecraft:summon_entity",
-					"entity": "minecraft:area_effect_cloud"
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Particle:{type:snowflake},Radius:5,Duration:200}"
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 0.5
 					}
 				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:snowflake"
+					},
+					"horizontal_position": {
+						"type": "in_bounding_box",
+						"offset": 0,
+						"scale": 2
+					},
+					"vertical_position": {
+						"type": "in_bounding_box",
+						"offset": 1,
+						"scale": 2
+					},
+					"horizontal_velocity": {
+						"base": 0,
+						"movement_scale": 0
+					},
+					"vertical_velocity": {
+						"base": 0.5,
+						"movement_scale": 0
+					},
+					"speed": 0.25
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"periodic_tick": 15
+						}
+					},
+					{
+						"condition": "minecraft:random_chance",
+						"chance": 0.75
+					}
+				]
 			}
 		]
 	}
