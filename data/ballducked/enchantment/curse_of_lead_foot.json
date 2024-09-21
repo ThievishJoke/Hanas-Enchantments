@@ -26,11 +26,10 @@
 				"id": "this",
 				"attribute": "minecraft:generic.jump_strength",
 				"amount": {
-					"type": "minecraft:fraction",
-					"numerator": 2,
-                    "denominator": 1
+					"type": "minecraft:levels_squared",
+                    "added": -4.35
 				},
-				"operation": "add_value"
+                "operation": "add_multiplied_base"
 			}
         ]
     }
