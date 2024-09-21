@@ -1,7 +1,10 @@
 {
     "values" : [
         "ballducked:bane_of_cubes",
+        "ballducked:chopping",
+        "ballducked:cleaving",
         "ballducked:frost_thorn",
-        "ballducked:growth"
+        "ballducked:growth",
+        "ballducked:fart"
     ]
 }

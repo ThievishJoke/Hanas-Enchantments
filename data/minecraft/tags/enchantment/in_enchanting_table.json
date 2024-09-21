@@ -2,6 +2,11 @@
     "values": [
         "ballducked:bane_of_cubes",
         "ballducked:frost_thorn",
-        "ballducked:growth"
+        "ballducked:growth",
+        "ballducked:chopping",
+        "ballducked:cleaving",
+        "ballducked:player_slayer",
+        "ballducked:curse_of_glass",
+        "ballducked:curse_of_dull"
     ]
   }
