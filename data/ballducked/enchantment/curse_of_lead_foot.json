@@ -1,36 +1,47 @@
 {
-    "description": {
-        "translate": "enchantment.ballducked.curse_of_lead_foot",
-        "fallback": "Curse of Lead Foot",
-        "color": "#dc143c"
-    },
-    "supported_items": "#minecraft:enchantable/foot_armor",
-    "primary_items": "#minecraft:enchantable/foot_armor",
-    "weight": 5,
-    "max_level": 2,
-    "min_cost": {
-        "base": 20,
-        "per_level_above_first": 10
-    },
-    "max_cost": {
-        "base": 30,
-        "per_level_above_first": 10
-    },
-    "anvil_cost": 4,
-    "slots": [
-        "feet"
-    ],
-    "effects": {
-        "attributes": [
-            {
+	"description": {
+		"translate": "enchantment.ballducked.curse_of_lead_foot",
+		"fallback": "Curse of Lead Foot",
+		"color": "#dc143c"
+	},
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"primary_items": "#minecraft:enchantable/foot_armor",
+	"weight": 5,
+	"max_level": 2,
+	"min_cost": {
+		"base": 20,
+		"per_level_above_first": 10
+	},
+	"max_cost": {
+		"base": 30,
+		"per_level_above_first": 10
+	},
+	"anvil_cost": 4,
+	"slots": [
+		"feet"
+	],
+	"effects": {
+		"attributes": [
+			{
 				"id": "this",
 				"attribute": "minecraft:generic.jump_strength",
 				"amount": {
-					"type": "minecraft:levels_squared",
-                    "added": -4.35
+					"type": "minecraft:linear",
+                    "base": -0.125,
+                    "per_level_above_first": -0.125
 				},
-                "operation": "add_multiplied_base"
+				"operation": "add_value"
+			},
+			{
+				"id": "this",
+				"attribute": "minecraft:generic.fall_damage_multiplier",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 2,
+					"per_level_above_first": 1
+				},
+				"operation": "add_value"
 			}
-        ]
-    }
+		]
+	}
 }
