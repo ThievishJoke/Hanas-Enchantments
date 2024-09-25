@@ -53,5 +53,6 @@ Currently adds 11 new enchantments and 3 curses
   - Armor looses more durability on use based on level
 - ~~Curse of Lead Foot~~ (2 levels)
   - Player looses a lot of their jump height
+  - __Greatly__ Increased fall damage 
 
 </details>
