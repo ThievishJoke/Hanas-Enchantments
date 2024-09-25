@@ -1,5 +1,7 @@
 {
     "values": [
-        "ballducked:player_slayer"
+        "ballducked:player_slayer",
+        "ballducked:arrow_barrage",
+        "ballducked:sonic_blast"
     ]
 }
