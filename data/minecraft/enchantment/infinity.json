@@ -30,7 +30,8 @@
       "per_level_above_first": 0
     },
     "slots": [
-      "mainhand"
+      "mainhand",
+      "offhand"
     ],
     "supported_items": "#hanas_enchantments:all_bows",
     "exclusive_set": "#hanas_enchantments:exclusive_set/all_bows",

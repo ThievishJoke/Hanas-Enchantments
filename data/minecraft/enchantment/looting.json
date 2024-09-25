@@ -36,7 +36,8 @@
       "per_level_above_first": 9
     },
     "slots": [
-      "mainhand"
+      "mainhand",
+      "offhand"
     ],
     "supported_items": "#hanas_enchantments:all_weapons",
     "weight": 2
