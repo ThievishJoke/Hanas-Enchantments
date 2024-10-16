@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.hanas_enchantments.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

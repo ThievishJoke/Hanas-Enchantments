@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "hanas-enchantments",
+	"version": "${version}",
+	"name": "Hanas-Enchantments",
+	"description": "Adds new custom enchantments while keeping close to vanilla!",
+	"authors": [
+		"BaLLducked"
+	],
+	"contact": {
+		"homepage": "https://github.com/ThievishJoke/Hanas_Enchantments/wiki",
+		"sources": "https://github.com/ThievishJoke/Hanas_Enchantments",
+		"issues": "https://github.com/ThievishJoke/Hanas_Enchantments/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hanas-enchantments/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hanas_enchantments.HanasEnchantments"
+		],
+		"client": [
+			"net.hanas_enchantments.HanasEnchantmentsClient"
+		],
+		"fabric-datagen": [
+			"net.hanas_enchantments.HanasEnchantmentsDataGenerator"
+		]
+	},
+	"mixins": [
+		"hanas-enchantments.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/yW2zQJp4bM"
+			}
+		}
+	}
+}
