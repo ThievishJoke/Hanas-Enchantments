@@ -15,9 +15,9 @@ public class HanasEnchantmentsDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-		pack.addProvider(ModItemTagProvider::new);
-		pack.addProvider(ModEnchantmentTagProvider::new);
-		pack.addProvider(ModEntityTypeTagProvider::new);
+		//pack.addProvider(ModItemTagProvider::new);
+		//pack.addProvider(ModEnchantmentTagProvider::new);
+		//pack.addProvider(ModEntityTypeTagProvider::new);
 
 		pack.addProvider(ModRegistryProvider::new);
 	}

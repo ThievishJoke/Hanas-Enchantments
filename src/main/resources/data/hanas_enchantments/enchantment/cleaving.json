@@ -1,0 +1,38 @@
+{
+    "description": {
+        "translate": "enchantment.hanas_enchantments.cleaving",
+        "fallback": "Cleaving",
+        "color": "#ee3f85"
+    },
+    "exclusive_set": "#hanas_enchantments:exclusive_set/axe",
+    "supported_items": "#hanas_enchantments:all_axes",
+    "primary_items": "#minecraft:enchantable/sharp_weapon",
+    "weight": 20,
+    "max_level": 3,
+    "min_cost": {
+		"base": 5,
+		"per_level_above_first": 8
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 8
+	},
+    "anvil_cost": 8,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 1
+                    }
+                }
+            }
+        ]
+    }
+}

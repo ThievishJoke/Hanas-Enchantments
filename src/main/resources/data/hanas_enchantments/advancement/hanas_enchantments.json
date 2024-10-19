@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Hanas Enchantments",
+        "description": "Adds new enchantments and curses",
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hanas_enchantments:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

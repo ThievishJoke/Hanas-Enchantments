@@ -1,0 +1,36 @@
+{
+	"description": {
+		"translate": "enchantment.hanas_enchantments.growth",
+		"fallback": "Growth",
+		"color": "#2e8b57"
+	},
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 1,
+	"max_level": 10,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 5
+	},
+	"max_cost": {
+		"base": 12,
+		"per_level_above_first": 5
+	},
+	"anvil_cost": 8,
+	"slots": [
+		"armor"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "this",
+				"attribute": "minecraft:generic.max_health",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1,
+					"per_level_above_first": 1
+				},
+				"operation": "add_value"
+			}
+		]
+	}
+}

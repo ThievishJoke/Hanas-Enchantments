@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "hanas-enchantments",
+	"id": "hanas_enchantments",
 	"version": "${version}",
 	"name": "Hanas-Enchantments",
 	"description": "Adds new custom enchantments while keeping close to vanilla!",

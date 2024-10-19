@@ -2,6 +2,7 @@ package net.hanas_enchantments.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.hanas_enchantments.enchantment.ModEnchantments;
 import net.hanas_enchantments.util.HEnchModTags;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.registry.RegistryWrapper;
@@ -15,14 +16,16 @@ public class ModEnchantmentTagProvider extends FabricTagProvider.EnchantmentTagP
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(HEnchModTags.Enchantments.ALL_BOWS_EXCLUSIVE_SET)
-                .add(Enchantments.INFINITY)
-        ;
-        getOrCreateTagBuilder(HEnchModTags.Enchantments.AXE_EXCLUSIVE_SET)
+        //getOrCreateTagBuilder(HEnchModTags.Enchantments.ALL_BOWS_EXCLUSIVE_SET)
+                //.add(Enchantments.INFINITY)
+                ////.add(ModEnchantments.ARROW_BARRAGE)
+                //.add(ModEnchantments.SPLIT_SHOT)
+        //;
+        //getOrCreateTagBuilder(HEnchModTags.Enchantments.AXE_EXCLUSIVE_SET)
 
-        ;
-        getOrCreateTagBuilder(HEnchModTags.Enchantments.LEGGINGS_EXCLUSIVE_SET)
-                .add(Enchantments.SWIFT_SNEAK)
-        ;
+        //;
+        //getOrCreateTagBuilder(HEnchModTags.Enchantments.LEGGINGS_EXCLUSIVE_SET)
+                //.add(Enchantments.SWIFT_SNEAK)
+        //;
     }
 }

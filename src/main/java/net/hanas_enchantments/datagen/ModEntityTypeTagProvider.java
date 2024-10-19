@@ -15,6 +15,7 @@ public class ModEntityTypeTagProvider extends FabricTagProvider.EntityTypeTagPro
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        /*
         getOrCreateTagBuilder(HEnchModTags.Entities.PASSIVE_MOB_TAG)
                 .add(EntityType.ALLAY)
                 .add(EntityType.ARMADILLO)
@@ -285,5 +286,6 @@ public class ModEntityTypeTagProvider extends FabricTagProvider.EntityTypeTagPro
         getOrCreateTagBuilder(HEnchModTags.Entities.SENSITIVE_TO_BANE_OF_CUBES)
                 .addTag(HEnchModTags.Entities.CUBED_MOBS)
         ;
+         */
     }
 }

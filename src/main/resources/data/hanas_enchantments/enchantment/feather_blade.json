@@ -1,0 +1,36 @@
+{
+    "description": {
+        "translate": "enchantment.hanas_enchantments.feather_blade",
+        "fallback": "Feather Blade",
+        "color": "#ee3f85"
+    },
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "weight": 20,
+    "max_level": 3,
+    "min_cost": {
+		"base": 5,
+		"per_level_above_first": 8
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 8
+	},
+    "anvil_cost": 8,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "attributes": [
+            {
+                "id": "this",
+                "attribute": "generic.attack_speed",
+                "operation": "add_multiplied_total",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.25,
+                    "per_level_above_first": 0.25
+                }
+            }
+        ]
+    }
+}
