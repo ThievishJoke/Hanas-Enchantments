@@ -32,6 +32,11 @@ Currently adds 11 new enchantments and 3 curses
   - works on both bow and crossbows 
   - shoots additional arrows per level
     - if used with multishot, it increases the spread and extra arrows
+    - heavily reduces reload speed for crossbows
+- Split Shot (1 Level)
+  - works for both bows and crossbows
+  - splits your shot into two diverging shots
+    - (reduced negative reload speed for crossbows in comparison to arrow barrage)
 - Sonic Blast
   - makes an arrow into a warden sonic boom
 ### Sharp weapons
