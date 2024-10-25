@@ -1,11 +1,11 @@
 {
     "display": {
-        "title": "Hanas Datapacks",
+        "title": "Hanas Mods",
         "frame": "challenge",
         "description": [
             "",
             {
-                "text": "All loaded Hanas datapacks\n",
+                "text": "All loaded Hanas Mods\n",
                 "color": "#AB4934"
             },
             {
