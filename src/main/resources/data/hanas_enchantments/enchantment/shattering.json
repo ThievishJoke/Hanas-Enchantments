@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "hanas_enchantments.shattering",
+    "fallback": "Shattering"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "body": {
+                "items": [],
+                "count": 4
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 15
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 15
+  },
+  "primary_items": "#minecraft:enchantable/weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#hanas_enchantments:weapons",
+  "weight": 10
+}
