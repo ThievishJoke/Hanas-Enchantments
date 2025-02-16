@@ -2,7 +2,8 @@
     "description": {
         "translate": "enchantment.hanas_enchantments.cleaving",
         "fallback": "Cleaving",
-        "color": "#ee3f85"
+        "color": "#ee3f85",
+        "description": "Provides a strong damage increase to axes."
     },
     "exclusive_set": "#hanas_enchantments:exclusive_set/axe",
     "supported_items": "#hanas_enchantments:all_axes",
@@ -28,7 +29,7 @@
                     "type": "minecraft:add",
                     "value": {
                         "type": "minecraft:linear",
-                        "base": 2,
+                        "base": 3,
                         "per_level_above_first": 1
                     }
                 }

@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.growth",
 		"fallback": "Growth",
-		"color": "#2e8b57"
+		"color": "#2e8b57",
+		"description": "Greatly increases your health per level."
 	},
 	"supported_items": "#minecraft:enchantable/armor",
 	"weight": 1,
@@ -12,10 +13,10 @@
 		"per_level_above_first": 5
 	},
 	"max_cost": {
-		"base": 12,
+		"base": 10,
 		"per_level_above_first": 5
 	},
-	"anvil_cost": 8,
+	"anvil_cost": 1,
 	"slots": [
 		"armor"
 	],

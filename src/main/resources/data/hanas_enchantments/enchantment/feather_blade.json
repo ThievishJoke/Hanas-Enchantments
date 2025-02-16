@@ -2,7 +2,8 @@
     "description": {
         "translate": "enchantment.hanas_enchantments.feather_blade",
         "fallback": "Feather Blade",
-        "color": "#ee3f85"
+        "color": "#ee3f85",
+        "description": "Reduces your attack cooldown."
     },
     "supported_items": "#minecraft:enchantable/sharp_weapon",
     "weight": 20,

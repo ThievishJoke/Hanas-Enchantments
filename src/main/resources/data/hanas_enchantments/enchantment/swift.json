@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.swift",
 		"fallback": "Swift",
-		"color": "#e0e96b"
+		"color": "#e0e96b",
+		"description": "Increases your movement speed."
 	},
 	"supported_items": "#minecraft:enchantable/foot_armor",
 	"weight": 5,
@@ -12,7 +13,7 @@
 		"per_level_above_first": 5
 	},
 	"max_cost": {
-		"base": 12,
+		"base": 14,
 		"per_level_above_first": 5
 	},
 	"anvil_cost": 8,

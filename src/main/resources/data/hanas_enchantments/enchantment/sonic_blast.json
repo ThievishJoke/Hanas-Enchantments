@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.sonic_blast",
 		"fallback": "Sonic Blast",
-		"color": "#5a4dcc"
+		"color": "#5a4dcc",
+		"description": "SOUND WARNING!"
 	},
 	"supported_items": "#hanas_enchantments:all_bows",
 	"primary_items": "#hanas_enchantments:all_bows",
@@ -13,7 +14,7 @@
 		"per_level_above_first": 1
 	},
 	"max_cost": {
-		"base": 1,
+		"base": 5,
 		"per_level_above_first": 1
 	},
 	"anvil_cost": 8,

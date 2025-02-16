@@ -1,6 +1,7 @@
 {
   "description": {
-    "translate": "enchantment.hanas_enchantments.split_shot"
+    "translate": "enchantment.hanas_enchantments.split_shot",
+    "fallback": "Split Shot"
   },
   "supported_items": "#hanas_enchantments:all_bows",
   "weight": 2,
@@ -10,10 +11,10 @@
   },
   "max_level": 1,
   "min_cost": {
-    "base": 25,
+    "base": 10,
     "per_level_above_first": 0
   },
-  "anvil_cost": 10,
+  "anvil_cost": 6,
   "slots": [
     "mainhand"
   ],

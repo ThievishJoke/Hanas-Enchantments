@@ -2,20 +2,21 @@
 	"description": {
 		"translate": "hanas_enchantments.curse_of_dull",
 		"fallback": "Curse of Dulling",
-		"color": "#dc143c"
+		"color": "#dc143c",
+		"description": "Massively increase durability weapons use attacking."
 	},
 	"supported_items": "#hanas_enchantments:weapons",
-	"weight": 5,
+	"weight": 1,
 	"max_level": 3,
 	"min_cost": {
 		"base": 25,
 		"per_level_above_first": 5
 	},
 	"max_cost": {
-		"base": 50,
+		"base": 25,
 		"per_level_above_first": 5
 	},
-	"anvil_cost": 8,
+	"anvil_cost": 6,
 	"slots": [
 		"any"
 	],

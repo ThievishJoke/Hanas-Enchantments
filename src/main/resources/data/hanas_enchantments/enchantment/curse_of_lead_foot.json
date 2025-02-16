@@ -2,18 +2,19 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.curse_of_lead_foot",
 		"fallback": "Curse of Lead Foot",
-		"color": "#dc143c"
+		"color": "#dc143c",
+		"description": "Good luck going anywhere with these."
 	},
 	"supported_items": "#minecraft:enchantable/foot_armor",
 	"primary_items": "#minecraft:enchantable/foot_armor",
-	"weight": 5,
+	"weight": 1,
 	"max_level": 2,
 	"min_cost": {
 		"base": 20,
 		"per_level_above_first": 10
 	},
 	"max_cost": {
-		"base": 30,
+		"base": 20,
 		"per_level_above_first": 10
 	},
 	"anvil_cost": 4,

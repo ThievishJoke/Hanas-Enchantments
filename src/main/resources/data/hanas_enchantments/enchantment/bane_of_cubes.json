@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.bane_of_cubes",
         "fallback": "Bane of Cubes",
-		"color": "#00a86b"
+		"color": "#00a86b",
+		"description": "Extra damage to cube shaped mobs."
 	},
 	"supported_items": "#minecraft:enchantable/weapon",
 	"primary_items": "#minecraft:enchantable/weapon",

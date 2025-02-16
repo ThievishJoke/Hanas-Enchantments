@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.hanas_enchantments.arrow_barrage",
         "fallback": "Arrow Barrage",
-        "color": "#be963f"
+        "color": "#be963f",
+		"description": "Unleash a barrage of multiple arrows."
 	},
 	"exclusive_set": "#hanas_enchantments:exclusive_set/all_bows",
 	"supported_items": "#hanas_enchantments:all_bows",
@@ -10,11 +11,11 @@
 	"weight": 2,
 	"max_level": 5,
 	"min_cost": {
-		"base": 25,
+		"base": 15,
 		"per_level_above_first": 0
 	},
 	"max_cost": {
-		"base": 55,
+		"base": 35,
 		"per_level_above_first": 0
 	},
 	"anvil_cost": 10,
